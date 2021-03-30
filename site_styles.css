@@ -1,0 +1,75 @@
+body {
+	position: relative;
+	margin: 0;
+	margin-bottom: 60px;
+	background-color: #a6acd0;
+	font-size: 30px;
+	font-family: cambria;
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+	background: #cacaca;
+}
+
+h1 {
+	color: black;
+}
+
+nav {
+	position: relative;
+	background: #a7a7a7;
+	color: white;
+}
+
+nav a {
+	position: relative;
+	display: inline-block;
+	width: 10%;
+	padding: 30px 11%;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav a.active {
+	background: #cacaca;
+}
+
+div#content {
+	width: 90%;
+	margin: auto;
+	background: White;
+	padding: 15px;
+}
+
+section#about p {
+	width: 80%;
+}
+
+section#about img {
+	width: 15%;
+	float: right;
+}
+
+section#resintro p {
+	width: 60%;
+	margin: 30px 0px;
+}
+
+section#resintro a {
+	padding: 15px;
+	background: #e4e8ff;
+	color: black;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	float: right;
+}
+
+section#resume {
+	padding-top: 60px;
+}
