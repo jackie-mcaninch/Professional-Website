@@ -10,14 +10,21 @@ body {
 
 header {
 	width: 100%;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding: 60px 0px;
 	text-align: center;
 	background: #cacaca;
 }
 
+header p {
+	font-size: 25px;
+	margin: 10px;
+}
+
 h1 {
-	color: black;
+	font-family: cambria, sans-serif;
+	font-weight: 800;
+	font-size: 100px;
+	margin: 10px;
 }
 
 p {
@@ -27,7 +34,6 @@ p {
 nav {
 	position: relative;
 	background: #a7a7a7;
-	color: white;
 }
 
 nav a {
@@ -35,12 +41,14 @@ nav a {
 	display: inline-block;
 	width: 10%;
 	padding: 30px 11%;
+	color: black;
 	text-align: center;
 	text-decoration: none;
 }
 
 nav a.active {
 	background: #cacaca;
+	color: #5763a9;
 }
 
 div#content {
@@ -87,4 +95,10 @@ section#resume {
 
 li ~ p {
 	margin: 0px 15px 5px;
+}
+
+section#projects li ~ p {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 20px;
 }
