@@ -1,4 +1,4 @@
-<!-- GENERAL STRUCTURE -->
+/* GENERAL STRUCTURE */
 
 body {
 	position: relative;
@@ -24,7 +24,7 @@ section {
 
 
 
-<!-- HEADINGS AND STYLES -->
+/* HEADINGS AND STYLES */
 
 h1 {
 	font-family: constantia;
@@ -57,7 +57,7 @@ strong {
 
 
 
-<!-- HEADER STRUCTURE -->
+/* HEADER STRUCTURE */
 
 header {
 	width: 100%;
@@ -74,7 +74,7 @@ header p {
 
 
 
-<!-- NAVIGATION STRUCTURE -->
+/* NAVIGATION STRUCTURE */
 
 nav ul {
 	width: 100%;
@@ -111,7 +111,7 @@ nav a.active {
 
 
 
-<!-- HOME PAGE 
+/* HOME PAGE */
 
 section#about img {
 	width: 290px;
@@ -121,7 +121,7 @@ section#about img {
 
 
 
-<!-- RESUME PAGE -->
+/* RESUME STRUCTURE */
 
 section#resintro a {
 	display: block;
@@ -151,7 +151,7 @@ li ~ p {
 
 
 
-<!-- PROJECTS PAGE -->
+/* PROJECTS PAGE */
 
 section#projects li ~ p {
 	margin-top: 5px;
